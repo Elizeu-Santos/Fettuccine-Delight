@@ -115,5 +115,135 @@
         "id": 3,
         "label": "Combos"
       }
+    },
+    {
+      "title": "Risoto de cogumelos",
+      "description": "Risoto cremoso de cogumelos selvagens e parmesão, servido com ervas frescas.",
+      "photo": "/assets/pratos/risoto_cogumelos.png",
+      "size": 380,
+      "serving": 2,
+      "price": 68.0,
+      "id": 10,
+      "category": {
+          "id": 1,
+          "label": "Massas"
     }
-  ]
+  },
+  {
+    "title": "Frango ao curry",
+    "description": "Peito de frango marinado em molho de curry, grelhado e servido com arroz basmati.",
+    "photo": "/assets/pratos/frango_curry.png",
+    "size": 450,
+    "serving": 2,
+    "price": 59.0,
+    "id": 11,
+    "category": {
+        "id": 2,
+        "label": "Carnes"
+    }
+},
+{
+    "title": "Salmão grelhado com legumes",
+    "description": "Salmão grelhado no ponto, acompanhado de legumes frescos e molho de limão.",
+    "photo": "/assets/pratos/salmao_grelhado.png",
+    "size": 400,
+    "serving": 2,
+    "price": 78.0,
+    "id": 12,
+    "category": {
+        "id": 2,
+        "label": "Carnes"
+    }
+},
+{
+    "title": "Hambúrguer vegano",
+    "description": "Hambúrguer 100% vegano feito com grão-de-bico e vegetais, servido com batatas fritas.",
+    "photo": "/assets/pratos/hamburguer_vegano.png",
+    "size": 300,
+    "serving": 1,
+    "price": 22.0,
+    "id": 13,
+    "category": {
+        "id": 4,
+        "label": "Veganos"
+    }
+},
+{
+    "title": "Tacos mexicanos",
+    "description": "Três tacos recheados com carne de porco desfiada, salada e molho especial.",
+    "photo": "/assets/pratos/tacos_mexicanos.png",
+    "size": 500,
+    "serving": 2,
+    "price": 65.0,
+    "id": 14,
+    "category": {
+        "id": 3,
+        "label": "Combos"
+    }
+},
+{
+    "title": "Ceviche de camarão",
+    "description": "Ceviche refrescante de camarão marinado em suco cítrico, servido com chips de tortilla.",
+    "photo": "/assets/pratos/ceviche_camarao.png",
+    "size": 320,
+    "serving": 2,
+    "price": 56.0,
+    "id": 15,
+    "category": {
+        "id": 2,
+        "label": "Carnes"
+    }
+},
+{
+    "title": "Pizza vegetariana",
+    "description": "Pizza com uma variedade de legumes frescos e queijo, massa fina e crocante.",
+    "photo": "/assets/pratos/pizza_vegetariana.png",
+    "size": 600,
+    "serving": 3,
+    "price": 40.0,
+    "id": 16,
+    "category": {
+        "id": 4,
+        "label": "Veganos"
+    }
+},
+{
+    "title": "Sushi variado",
+    "description": "Seleção de sushis e sashimis frescos, incluindo salmão, atum e vegetais.",
+    "photo": "/assets/pratos/sushi_variado.png",
+    "size": 350,
+    "serving": 2,
+    "price": 50.0,
+    "id": 17,
+    "category": {
+        "id": 3,
+        "label": "Combos"
+    }
+},
+{
+    "title": "Espaguete à Carbonara",
+    "description": "Espaguete cremoso com molho à base de queijo, ovos, pancetta e pimenta preta.",
+    "photo": "/assets/pratos/espaguete_carbonara.png",
+    "size": 380,
+    "serving": 2,
+    "price": 55.0,
+    "id": 18,
+    "category": {
+        "id": 1,
+        "label": "Massas"
+    }
+},
+{
+    "title": "Torta de legumes",
+    "description": "Torta recheada com uma mistura de legumes frescos, queijo e ervas.",
+    "photo": "/assets/pratos/torta_legumes.png",
+    "size": 300,
+    "serving": 1,
+    "price": 35.0,
+    "id": 19,
+    "category": {
+        "id": 4,
+        "label": "Veganos"
+    }
+  }
+]
