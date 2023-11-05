@@ -17,7 +17,7 @@ export default function Cardapio() {
         <Logo />
       </nav>
       <header className={styles.header}>
-        <div className={styles.header__text}>Welcome to the Restaurant</div>
+        <div className={styles.header__text}>Welcome to the Fusion Restaurant Hub</div>
       </header>
       <section className={styles.cardapio}>
         <h3 className={styles.cardapio__titulo}>Cardápio</h3>
