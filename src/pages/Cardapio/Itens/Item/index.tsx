@@ -18,10 +18,10 @@ export default function Item(props: Props) {
         </div>
         <div className={styles.item__tags}>
           <div
-            className={classNames({
-              [styles.item__tipo]: true,
-              [styles[`item__tipo__${category.label.toLowerCase()}`]]: true,
-            })}
+            className={classNames(
+              styles.item__tipo,
+              styles[`item__tipo__${category.label.toLowerCase()}`]
+            )}
           >
             {category.label}
           </div>
