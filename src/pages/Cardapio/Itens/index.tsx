@@ -1,7 +1,7 @@
 import cardapio from "./itens.json";
 import Item from "./Item";
 import styles from "./Itens.module.scss";
-import { useEffect, useState, useCallback } from "react";
+import { useState, useEffect } from "react";
 
 interface Props {
   busca: string;
@@ -13,43 +13,35 @@ export default function Itens(props: Props) {
   const [lista, setLista] = useState(cardapio);
   const { busca, filtro, ordenador } = props;
 
-  const testaBusca = useCallback((title: string) => {
+  function testaBusca(title: string) {
     const regex = new RegExp(busca, "i");
     return regex.test(title);
-  }, [busca]);
+  }
 
-  const testaFiltro = useCallback((id: number) => {
+  function testaFiltro(id: number) {
     if (filtro !== null) return filtro === id;
     return true;
-  }, [filtro]);
+  }
 
-  const ordenarPropriedadeCrescente = (
-    lista: typeof cardapio,
-    propriedade: keyof Pick<typeof cardapio[0], 'size' | 'serving' | 'price'>
-  ) => {
-    return lista.sort((a, b) => (a[propriedade] > b[propriedade] ? 1 : -1));
-  };
-  
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  const ordenar = (novaLista: typeof cardapio) => {
+  function ordenar(novaLista: typeof cardapio) {
     switch (ordenador) {
-      case 'porcao':
-        return ordenarPropriedadeCrescente(novaLista, 'size');
-      case 'qtd_pessoas':
-        return ordenarPropriedadeCrescente(novaLista, 'serving');
-      case 'preco':
-        return ordenarPropriedadeCrescente(novaLista, 'price');
+      case "porcao":
+        return novaLista.sort((a, b) => (a.size > b.size ? 1 : -1));
+      case "qtd_pessoas":
+        return novaLista.sort((a, b) => (a.serving > b.serving ? 1 : -1));
+      case "preco":
+        return novaLista.sort((a, b) => (a.price > b.price ? 1 : -1));
       default:
         return novaLista;
     }
-  };
+  }
 
   useEffect(() => {
     const novaLista = cardapio.filter(
       (item) => testaBusca(item.title) && testaFiltro(item.category.id)
     );
     setLista(ordenar(novaLista));
-  }, [busca, filtro, ordenador, testaBusca, testaFiltro, ordenar]);
+  }, [busca, filtro, ordenador]);
 
   return (
     <div className={styles.itens}>
