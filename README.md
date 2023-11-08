@@ -1,10 +1,13 @@
-
 <body>
 <h1>Projeto React: Lidando com Arquivos Estáticos</h1>
 
 <p>Este repositório contém o código-fonte e os arquivos relacionados ao projeto "Lidando com Arquivos Estáticos em React". Este projeto foi desenvolvido com o intuito de explorar e aplicar boas práticas no desenvolvimento de aplicações React, utilizando Create React App e explorando a manipulação de arquivos estáticos, estilos e componentes.</p>
 
-<p align="center"><img src="./src/Imagens/Imagem_01.png" alt="logo"> </p>
+<p align="center">
+    <a href="https://fusion-restaurant.netlify.app/" target="_blank">
+        <img src="./src/Imagens/Imagem_01.png" alt="logo">
+    </a>
+</p>
 
 <h2>Objetivos do Projeto</h2>
 
@@ -19,7 +22,12 @@
     <li>Compreensão de como o React lida com os imports estáticos, tanto em arquivos .js quanto em arquivos de estilos (.scss ou .css). Aprendizado sobre a importação de arquivos estáticos como variáveis via JavaScript ou a utilização da pasta <code>public</code> para importações dinâmicas de arquivos estáticos.</li>
 </ul>
 
-<p align="center"><img src="./src/Imagens/imagem_02.png" alt="logo"> </p>
+<p align="center">
+    <a href="https://fusion-restaurant.netlify.app/" target="_blank">
+        <img src="./src/Imagens/imagem_02.png" alt="logo">
+    </a>
+</p>
+
 
 <h2>Como Utilizar Este Repositório</h2>
 
