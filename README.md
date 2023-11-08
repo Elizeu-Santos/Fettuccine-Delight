@@ -4,6 +4,8 @@
 
 <p>Este repositório contém o código-fonte e os arquivos relacionados ao projeto "Lidando com Arquivos Estáticos em React". Este projeto foi desenvolvido com o intuito de explorar e aplicar boas práticas no desenvolvimento de aplicações React, utilizando Create React App e explorando a manipulação de arquivos estáticos, estilos e componentes.</p>
 
+<p align="center"><img src="./src/Imagens/Imagem_01.png" alt="logo"> </p>
+
 <h2>Objetivos do Projeto</h2>
 
 <p>O projeto abrange os seguintes tópicos:</p>
@@ -16,6 +18,8 @@
     <li>Exploração do pacote SVGR para importar arquivos SVG como componentes React.</li>
     <li>Compreensão de como o React lida com os imports estáticos, tanto em arquivos .js quanto em arquivos de estilos (.scss ou .css). Aprendizado sobre a importação de arquivos estáticos como variáveis via JavaScript ou a utilização da pasta <code>public</code> para importações dinâmicas de arquivos estáticos.</li>
 </ul>
+
+<p align="center"><img src="./src/Imagens/imagem_02.png" alt="logo"> </p>
 
 <h2>Como Utilizar Este Repositório</h2>
 
