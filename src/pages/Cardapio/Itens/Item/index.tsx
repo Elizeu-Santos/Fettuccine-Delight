@@ -1,6 +1,6 @@
-import styles from "./Item.module.scss";
-import cardapio from "../itens.json";
-import classNames from "classnames";
+import styles from './Item.module.scss';
+import cardapio from '../itens.json';
+import classNames from 'classnames';
 
 type Props = (typeof cardapio)[0];
 
@@ -27,7 +27,7 @@ export default function Item(props: Props) {
           </div>
           <div className={styles.item__porcao}>{size}g</div>
           <div className={styles.item__qtdpessoas}>
-            Serve {serving} pessoa{serving === 1 ? "" : "s"}
+            Serve {serving} pessoa{serving === 1 ? '' : 's'}
           </div>
           <div className={styles.item__valor}>R$ {price.toFixed(2)}</div>
         </div>
