@@ -1,5 +1,5 @@
 <body>
-<h1>Projeto React: Lidando com Arquivos Estáticos</h1>
+<h1>React com TypeScript</h1>
 
 <p>Este repositório contém o código-fonte e os arquivos relacionados ao projeto "Lidando com Arquivos Estáticos em React". Este projeto foi desenvolvido com o intuito de explorar e aplicar boas práticas no desenvolvimento de aplicações React, utilizando Create React App e explorando a manipulação de arquivos estáticos, estilos e componentes.</p>
 
