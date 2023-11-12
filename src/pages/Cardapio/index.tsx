@@ -4,6 +4,7 @@ import styles from './Cardapio.module.scss';
 import Filtros from './Filtros';
 import Ordenador from './Ordenador';
 import Itens from './Itens';
+import Menu from 'components/Menu';
 
 export default function Cardapio() {
   const [busca, setBusca] = useState('');
@@ -12,8 +13,7 @@ export default function Cardapio() {
 
   return (
     <main>
-      <nav className={styles.menu}>
-      </nav>
+      <Menu />
       <header className={styles.header}>
         <div className={styles.header__text}>Welcome to the Fusion Restaurant Hub</div>
       </header>
