@@ -32,7 +32,7 @@
       "react-app/jest"
     ],
     "rules": {
-      "linebreak-style": ["error", "windows"]
+      "linebreak-style": ["error", "CRLF"]
     }
   },
   "browserslist": {
