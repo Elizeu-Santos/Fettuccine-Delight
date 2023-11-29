@@ -20,6 +20,11 @@
     <li>Utilização do pacote <code>classnames</code> para trabalhar com CSS Modules de forma simplificada e lidar com estilos condicionais.</li>
     <li>Exploração do pacote SVGR para importar arquivos SVG como componentes React.</li>
     <li>Compreensão de como o React lida com os imports estáticos, tanto em arquivos .js quanto em arquivos de estilos (.scss ou .css). Aprendizado sobre a importação de arquivos estáticos como variáveis via JavaScript ou a utilização da pasta <code>public</code> para importações dinâmicas de arquivos estáticos.</li>
+    <li>Aprofundamento na Estrutura básica do Router DOM, compreendendo como ele gerencia a navegação entre componentes React.</li>
+    <li>Passos detalhados para a criação de rotas no projeto, permitindo a navegação eficiente entre diferentes páginas ou seções da aplicação.</li>
+    <li>Exploração dos Router DOM Hooks, destacando como eles podem ser utilizados para acessar e manipular informações sobre as rotas atuais.</li>
+    <li>Ajustes detalhados na implementação do componente NotFound, abordando estratégias para lidar com rotas inexistentes.</li>
+    <li>Configuração do componente Header no contexto do Router DOM, proporcionando uma experiência de navegação consistente e intuitiva.</li>
 </ul>
 
 <p align="center">
@@ -61,7 +66,7 @@ yarn start
 
 <p>Isso iniciará a aplicação React localmente. Certifique-se de possuir o Node.js e npm (ou yarn) instalados em sua máquina.</p>
 
-<p>Este projeto é resultado do curso "Lidando com Arquivos Estáticos em React", abordando uma série de práticas e técnicas fundamentais para o desenvolvimento em React.</p>
+<p>Este projeto é resultado do curso "Lidando com Arquivos Estáticos em React" da plataforma Alura, abordando uma série de práticas e técnicas fundamentais para o desenvolvimento em React.</p>
 <hr>
 </body>
 </html>
