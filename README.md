@@ -5,13 +5,13 @@
 
 <p align="center">
     <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
-        <img src="./src/Imagens/" alt="logo">
+        <img src="./src/Imagens/Photo01.png" alt="logo">
     </a>
 </p>
 
 <p align="center">
     <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
-        <img src="./src/Imagens/imagem_02.png" alt="logo">
+        <img src="./src/Imagens/Photo02.png" alt="logo">
     </a>
 </p>
 
@@ -35,7 +35,7 @@
 
 <p align="center">
     <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
-        <img src="./src/Imagens/" alt="logo">
+        <img src="./src/Imagens/Photo03.png" alt="logo">
     </a>
 </p>
 
