@@ -5,7 +5,7 @@
 
 <p align="center">
     <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
-        <img src="./src/Imagens/Imagem_01.png" alt="logo">
+        <img src="./src/Imagens/" alt="logo">
     </a>
 </p>
 
@@ -35,7 +35,7 @@
 
 <p align="center">
     <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
-        <img src="./src/Imagens/Imagem_03.png" alt="logo">
+        <img src="./src/Imagens/" alt="logo">
     </a>
 </p>
 
