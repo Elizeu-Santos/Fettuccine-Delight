@@ -4,13 +4,13 @@
 <p>Este repositório contém o código-fonte e os arquivos relacionados ao projeto "Lidando com Arquivos Estáticos em React". Este projeto foi desenvolvido com o intuito de explorar e aplicar boas práticas no desenvolvimento de aplicações React, utilizando Create React App e explorando a manipulação de arquivos estáticos, estilos e componentes.</p>
 
 <p align="center">
-    <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
+    <a href="https://fettuccine-delight.vercel.app/" target="_blank">
         <img src="./src/Imagens/Photo01.png" alt="logo">
     </a>
 </p>
 
 <p align="center">
-    <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
+    <a href="https://fettuccine-delight.vercel.app/" target="_blank">
         <img src="./src/Imagens/Photo02.png" alt="logo">
     </a>
 </p>
@@ -34,7 +34,7 @@
 </ul>
 
 <p align="center">
-    <a href="https://aluroni-cpj3gs7l4-elizeu-santos-projects.vercel.app/" target="_blank">
+    <a href="https://fettuccine-delight.vercel.app/" target="_blank">
         <img src="./src/Imagens/Photo03.png" alt="logo">
     </a>
 </p>
