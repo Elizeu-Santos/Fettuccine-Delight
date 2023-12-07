@@ -7,7 +7,7 @@ export default function DefaultPage() {
     <>
       <header className={styles.header}>
         <div className={styles.header__text}>
-          Welcome to the Fusion Restaurant Hub
+        Fettuccine Delight
         </div>
       </header>
       <div className={stylesTema.container}>
