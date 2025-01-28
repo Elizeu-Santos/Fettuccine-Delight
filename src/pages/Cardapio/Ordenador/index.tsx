@@ -11,7 +11,8 @@ interface Props {
 
 function Ordenador({ ordenador, setOrdenador }: Props) {
   const [aberto, setAberto] = useState(false);
-  const nomeOrdenador = ordenador && opcoes.find(opcao => opcao.value === ordenador)?.nome;
+  const nomeOrdenador =
+    ordenador && opcoes.find((opcao) => opcao.value === ordenador)?.nome;
 
   return (
     <button
@@ -35,8 +36,11 @@ function Ordenador({ ordenador, setOrdenador }: Props) {
         })}
       >
         {opcoes.map((opcao) => (
-          <div className={styles.ordenador__option} key={opcao.value}
-            onClick={() => setOrdenador(opcao.value)}>
+          <div
+            className={styles.ordenador__option}
+            key={opcao.value}
+            onClick={() => setOrdenador(opcao.value)}
+          >
             {opcao.nome}
           </div>
         ))}
