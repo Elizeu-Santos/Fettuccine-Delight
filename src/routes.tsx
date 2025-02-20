@@ -1,14 +1,14 @@
 import Footer from 'components/Footer';
-import DefaultPage from 'components/DefaultPage';
 import Menu from 'components/Menu';
-import Inicio from 'pages/Inicio';
-import Sobre from 'pages/Sobre';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NotFound from 'pages/NotFound';
-import Prato from 'pages/Prato';
 import { lazy, Suspense } from 'react';
 
 const Cardapio = lazy(() => import('pages/Cardapio'));
+const DefaultPage = lazy(() => import('components/DefaultPage'));
+const Inicio = lazy(() => import('pages/Inicio'));
+const NotFound= lazy(() => import('pages/NotFound'));
+const Prato = lazy(() => import('pages/Prato'));
+const Sobre = lazy(() => import('pages/Sobre'));
 
 export default function AppRouter() {
   return (
